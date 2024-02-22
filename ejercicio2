@@ -1,0 +1,12 @@
+class A: #define una clase de nombre A
+    matricula = "None" #atributo de la clase A
+    nombre = "None" #atributo de la clase A
+
+objetoA = A() #crea un objeto de la clase A
+print(objetoA.matricula) #imprime el atributo matricula del objeto A
+def __init__(self): #define un metodo de la clase A
+    self.nombre = "None" #atributo de la clase A
+    print("contructor de la clase A")
+
+objetoA= A() #crea un objeto de la clase A
+print(objetoA.nombre) #imprime el atributo matricula del objeto A
