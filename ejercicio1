@@ -1,0 +1,8 @@
+class A:
+    matricula=None
+    nombre=None
+
+ObjetoA=A()#ObjetoA es una instancia de la clase A
+ObjetoA.matricula=1111
+ObjetoA.nombre="Dejah"
+print(ObjetoA.matricula)#Imprime 1
