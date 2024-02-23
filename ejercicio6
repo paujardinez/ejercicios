@@ -1,0 +1,14 @@
+"""
+    nombre: Karen GJ
+    Fecha: 30/01/2024
+    Description: programa que crea un objeto
+"""
+
+
+class Alumno: #define la clase Alumno
+    nombre = None #asigna el valor None al parametro nombre
+    def __init__(self,nombre):#constructor de la clase Alumno
+        self.nombre = nombre#asigna el valor del parametro nombre al atributo nombre
+        print(f"Alumno {self.nombre} creado")#imprime el mensaje indicado
+            
+dejah = Alumno("Dejah") #crea un objeto de la clase Alumno
