@@ -1,0 +1,11 @@
+class Alumnos:
+  matricula=None
+  nombre=None
+  def __init__(self,matricula,nombre):#constructor
+      self.matricula=matricula#atributos
+      self.nombre=nombre#atributos
+      print("Objeto Alumnos")#imprime el objeto
+objetoAlumnos=Alumnos("", "nombre, matricula")
+print(objetoAlumnos.matricula)
+objetoAlumnos = Alumnos("matricula", "nombre")
+objetoAlumnos = Alumnos(nombre="John", matricula = "222")
